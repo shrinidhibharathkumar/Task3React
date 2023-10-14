@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.back {
+  min-width: 100vh;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #c0b6db;
 }
 
-.App-link {
-  color: #61dafb;
+.box {
+  min-width: 90vh;
+  min-height: 70vh;
+  border: 1px solid #ccc; /* Border style and color */
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.small-box {
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 5px;
+  border: 1px solid #ccc; /* Border style and color */
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.text {
+  font-weight: 600;
+  font-size: xx-large;
+  margin-bottom: 30px;
+}
+
+.button {
+  margin-top: 30px;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: #00ff01;
+}
+
+.three {
+  background-color: #0000fe;
+}
+
+.four {
+  background-color: #fffe05;
+}
+
+.five {
+  background-color: #ff00fe;
+}
+.six {
+  background-color: #00ffff;
+}
+.seven {
+  background-color: #fea500;
+}
+.eight {
+  background-color: #81007f;
+}
+.nine {
+  background-color: #ffc0cb;
+}
+.ten {
+  background-color: #008001;
+}
+.eleven {
+  background-color: #fe6347;
+}
+.twelve {
+  background-color: #01ced1;
+}
+.thirteen {
+  background-color: #8b4512;
+}
+.fourteen {
+  background-color: #ff8b00;
+}
+.fifteen {
+  background-color: #4682b4;
+}
+.sixteen {
+  background-color: #fed700;
 }
